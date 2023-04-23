@@ -1,0 +1,48 @@
+-> int put a directed weighted graph and must have 1 or more negative edge and a source node
+
+-> output if the graph has any negative cycle print it
+
+i)  take a distance arry and initially all index must be initialised as infinity
+
+ii) make the distance of source node is 0
+
+iii) then call the bellman-ford functon with souce node
+
+................now this is the algo of bellman-ford...............
+
+
+1) a outer loop will be continue n time{
+
+------- and then rekaxation operation wiil continue on all edges
+
+        ------------- if any node can make relaxed it any adjacency node then update them  and then we will track the prant
+         --------------- if any one is updatee in n th itaration then we are sure that there is at least one negative cycle and then have to take the last updated node
+
+
+
+
+
+..................now the algo for cycle ..............
+
+
+1) we just have to tack the parent of last updated node time and then them we must inside the cycle and when we are in the cycle we can go out of it
+
+2) and we will simply print the path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
